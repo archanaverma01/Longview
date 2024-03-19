@@ -27,3 +27,6 @@ The users would need to generate bam files using sequencing alignment programs s
 ``` EVENT_WINDOW = 100 ``` Extends cleavage window to +/- 100 bp of the both the cut sites provided  
 ```REGION_LEN = 25 ``` Deletions <=25 bp will be categorized as short deletions  
 ```TYPE_OF_EVENT= "D" ``` D captures deletion event  
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/92/George_Griffith_%28cropped%29.jpg)
