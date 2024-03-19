@@ -29,4 +29,4 @@ The users would need to generate bam files using sequencing alignment programs s
 ```TYPE_OF_EVENT= "D" ``` D captures deletion event  
 
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/92/George_Griffith_%28cropped%29.jpg)
+![](images/Resection_mediated_deletions.png)
