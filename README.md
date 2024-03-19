@@ -4,6 +4,8 @@ This python script will
 - ```quantify resection-mediated deletion events ```
 - ```generate plots to visualize deletion events wrt to the provided cleavage sites ```
 
+![](images/Resection_mediated_deletions.png)
+
 ## Instructions 
 The users would need to generate bam files using sequencing alignment programs such as minimap2 and provide the following information that will be input for 
 ```process_bams_double_editing``` function
@@ -28,5 +30,6 @@ The users would need to generate bam files using sequencing alignment programs s
 ```REGION_LEN = 25 ``` Deletions <=25 bp will be categorized as short deletions  
 ```TYPE_OF_EVENT= "D" ``` D captures deletion event  
 
-
 ![](images/Resection_mediated_deletions.png)
+
+
