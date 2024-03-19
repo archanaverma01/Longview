@@ -30,6 +30,7 @@ The users would need to generate bam files using sequencing alignment programs s
 ```REGION_LEN = 25 ``` Deletions <=25 bp will be categorized as short deletions  
 ```TYPE_OF_EVENT= "D" ``` D captures deletion event  
 
-![](images/Resection_mediated_deletions.png)
+## Output
+![](images/plots_figure.png)
 
 
