@@ -9,8 +9,8 @@ This python script will
 ## Instructions 
 The users would need to generate bam files using sequencing alignment programs such as minimap2 and provide the following information that will be input for 
 ```process_bams_double_editing``` function
- - ```START_CLIP ``` This is the start coordinate of your reads' bam file 
- - ```END_CLIP ``` This is the end coordinate of your reads' bam file
+ - ```START_CLIP ``` This is the start index of your reads' bam file 
+ - ```END_CLIP ``` This is the end index of your reads' bam file
  - ```DISTANCE_FROM_START_AND_END ``` This describes the overalapping distance in basepair between the long-range PCR forward and reverse primer to remove fragmented and incomplete reads 
  - ```REMOVE_START_END_SAME_LEN ``` Set this either to ```True``` or ```False```. ```True``` if the user wants to include only the unique deletion events for their analysis and ```False``` if the user wants to include all deletion events which could include duplicate events for their analysis. ```Unique deletion events ``` in this case is described as ones that have the same ```start and end index ```
  - ```CUT_SITE_1``` This is the coordinate for your sgRNA1 cleavage site
