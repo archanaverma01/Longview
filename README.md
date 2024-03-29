@@ -11,7 +11,7 @@ The users would need to generate bam files using sequencing alignment programs s
 ```process_bams_double_editing``` function
  - ```START_CLIP ``` This is the start index of your reads' bam file 
  - ```END_CLIP ``` This is the end index of your reads' bam file
- - ```DISTANCE_FROM_START_AND_END ``` This describes the overlapping distance in basepair between the long-range PCR forward and reverse primer and the bam file to ensure removal of fragmented and incomplete reads 
+ - ```DISTANCE_FROM_START_AND_END ``` This describes the distance in basepair from the forward and the reverse primer binding site to the window input by the user in the generated bam file to ensure removal of fragmented and incomplete reads 
  - ```REMOVE_START_END_SAME_LEN ``` Set this either to ```True``` or ```False```. If the user wants to include only the unique deletion events for their analysis, then set this to ```True``` and if the user wants to include all deletion events which could include duplicate events for their analysis, then set this to ```False``` . ```Unique deletion events ``` in this case are described as ones that have the same ```start and end index ```
  - ```CUT_SITE_1``` This is the index for your sgRNA1 cleavage site
  - ```CUT_SITE_2 ```This is the index for your sgRNA2 cleavage site
