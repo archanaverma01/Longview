@@ -19,6 +19,8 @@ The users would need to generate bam files using sequencing alignment programs s
  - ```REGION_LEN ``` This describes the length of the deletion. Deletions <= ```REGION_LEN ``` will be categorized as short deletions and deletions > ```REGION_LEN ``` will be categorized as long deletions
 - ```TYPE_OF_EVENT ``` This describes the type of event we are interested in quantifying such as deletions represented by CIGAR string "D" , insertions represented by CIGAR string "I", matches/mismatches represented by CIGAR string "M" etc.
 
+![](images/Deletion_analysis_fig.png)
+
 ### Example Input
 ```START_CLIP = 53395``` Start index of our reads' bam file  
 ```END_CLIP =   59374```  End index of our reads' bam file  
